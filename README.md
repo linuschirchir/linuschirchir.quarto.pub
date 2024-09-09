@@ -1,9 +1,79 @@
-# Linus Chirchir - Data Science Portfolio
+# Welcome to the Repo of Linus Chirchir's Quarto Website
 
-Welcome to the portfolio of Linus Chirchir, a passionate Data Scientist dedicated to uncovering insights from data and driving decision-making through analytical solutions. This website showcases my journey in the field of Data Science, highlighting key projects, skills, and experiences that reflect my expertise and professional growth.
+This repository contains the source code and configuration for Linus Chirchir's Quarto website, hosted at [linuschirchir.quarto.pub](https://linuschirchir.quarto.pub).
 
-Explore the various sections to discover my work in data analysis, machine learning, and data visualisation. Each project is accompanied by detailed descriptions, showcasing the methodologies, tools, and technologies I’ve used to solve complex problems and generate actionable insights. From predictive modelling to machine learning and data-driven storytelling, my portfolio demonstrates my ability to turn raw data into valuable outcomes.
+![Website Preview](images/website_preview.png)
 
-In addition to my technical skills, I bring a strong foundation in statistical analysis, programming, and a keen eye for patterns and trends. I’m committed to continuous learning and innovation, always eager to explore new techniques and technologies that push the boundaries of what’s possible with data.
+## Table of Contents
 
-Feel free to navigate through the site to learn more about my background, my approach to Data Science, and how I can help bring data-driven solutions to your next project. Don’t hesitate to get in touch if you’re interested in collaborating or if you’d like to discuss any of the work featured here.
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Site Structure](#site-structure)
+- [Customization](#customisation)
+- [License](#license)
+
+## Introduction
+
+This project is the foundation of my personal Quarto website, where I share content related to data science, artificial intelligence, machine learning, and health information systems. The website includes blog posts, my CV, and details on various projects I've worked on.
+
+## Prerequisites
+
+Before getting started, ensure you have the following installed on your machine:
+
+- **Quarto**: The website is built using the Quarto framework. You can download it from the [official site](https://quarto.org/).
+- **Git**: To clone this repository.
+- **Web Browser**: To view the rendered site locally.
+
+## Installation
+
+To install and run the project locally, follow these steps:
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/linuschirchir/linuschirchir.quarto.pub.git
+   cd linuschirchir.quarto.pub
+   ```
+
+2. Install Quarto on your system following the instructions from the [Quarto website](https://quarto.org/docs/get-started/).
+
+3. Render the site locally:
+   ```bash
+   quarto render
+   ```
+
+4. Open the generated `_site/index.html` file in your web browser to view the site locally.
+
+## Site Structure
+
+The main files and directories of interest in this project are:
+
+- **_quarto.yml**: The central configuration file for the site. It includes metadata, navigation, and layout options.
+- **about.qmd**: The "About Me" page written in Quarto markdown.
+- **blog.qmd**: The section where blog posts are rendered.
+- **cv.qmd**: Contains the content for my professional CV.
+- **projects.qmd**: Showcases various projects I've worked on.
+- **styles.css**: Custom styles applied to the site.
+- **dark.scss & light.scss**: SCSS files to manage different themes for the site.
+
+## Customisation
+
+Feel free to customize the site to your needs by adjusting the following:
+
+- **Themes**: Modify the `styles.css` or use the SCSS files to tweak light and dark themes.
+- **Content**: Update the Quarto markdown files (`.qmd`) to add new blog posts, projects, or modify existing content.
+- **Metadata**: Customize the `_quarto.yml` file to change the site’s metadata, such as title, description, and navigation layout.
+
+## License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it as long as attribution is provided. See the `LICENSE` file for more details.
+
+---
+
+Happy browsing!  
+**Linus Chirchir**  
+[Visit My Website](https://linuschirchir.quarto.pub)
+```
+
+
+This `README.md` provides an overview of the project, the file structure, instructions for running the project locally, and other details. Let me know if you need further customisation!
