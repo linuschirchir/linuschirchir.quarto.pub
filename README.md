@@ -10,7 +10,7 @@ This repository contains the source code and configuration for Linus Chirchir's 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Site Structure](#site-structure)
-- [Customization](#customisation)
+- [Customisation](#customisation)
 - [License](#license)
 
 ## Introduction
