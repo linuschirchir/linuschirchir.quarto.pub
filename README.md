@@ -58,11 +58,11 @@ The main files and directories of interest in this project are:
 
 ## Customisation
 
-Feel free to customize the site to your needs by adjusting the following:
+Feel free to customise the site to your needs by adjusting the following:
 
 - **Themes**: Modify the `styles.css` or use the SCSS files to tweak light and dark themes.
 - **Content**: Update the Quarto markdown files (`.qmd`) to add new blog posts, projects, or modify existing content.
-- **Metadata**: Customize the `_quarto.yml` file to change the site’s metadata, such as title, description, and navigation layout.
+- **Metadata**: Customise the `_quarto.yml` file to change the site’s metadata, such as title, description, and navigation layout.
 
 ## License
 
