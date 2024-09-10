@@ -22,27 +22,31 @@ This project is the foundation of my personal Quarto website, where I share cont
 Before getting started, ensure you have the following installed on your machine:
 
 - **Quarto**: The website is built using the Quarto framework. You can download it from the [official site](https://quarto.org/).
-- **Git**: To clone this repository.
+- **Git**: To fork and clone this repository.
 - **Web Browser**: To view the rendered site locally.
 
 ## Installation
 
 To install and run the project locally, follow these steps:
 
-1. Clone the repository to your local machine:
+1. Fork the repository:
+   - Go to the repository page on GitHub: https://github.com/linuschirchir/linuschirchir.quarto.pub
+   - Click the "Fork" button in the top-right corner of the page to create a copy of the repository under your GitHub account.
+
+2. Clone your forked repository to your local machine:
    ```bash
-   git clone https://github.com/linuschirchir/linuschirchir.quarto.pub.git
+   git clone https://github.com/<your-username>/linuschirchir.quarto.pub.git
    cd linuschirchir.quarto.pub
    ```
 
-2. Install Quarto on your system following the instructions from the [Quarto website](https://quarto.org/docs/get-started/).
+3. Install Quarto on your system following the instructions from the [Quarto website](https://quarto.org/docs/get-started/).
 
-3. Render the site locally:
+4. Render the site locally:
    ```bash
    quarto render
    ```
 
-4. Open the generated `_site/index.html` file in your web browser to view the site locally.
+5. Open the generated `_site/index.html` file in your web browser to view the site locally.
 
 ## Site Structure
 
@@ -73,7 +77,3 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 Happy browsing!  
 **Linus Chirchir**  
 [Visit My Website](https://linuschirchir.quarto.pub)
-```
-
-
-This `README.md` provides an overview of the project, the file structure, instructions for running the project locally, and other details. Let me know if you need further customisation!
