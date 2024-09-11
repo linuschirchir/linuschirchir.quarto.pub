@@ -31,7 +31,7 @@ To install and run the project locally, follow these steps:
 
 1. Fork the repository:
    - Go to the repository page on GitHub: https://github.com/linuschirchir/linuschirchir.quarto.pub
-   - Click the "Fork" button in the top-right corner of the page to create a copy of the repository under your GitHub account.
+   - Click "Fork" in the top-right corner to copy the repository to your GitHub account.
 
 2. Clone your forked repository to your local machine:
    ```bash
