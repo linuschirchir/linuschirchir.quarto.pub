@@ -1,4 +1,4 @@
-# Welcome to the Repo of Linus Chirchir's Quarto Website
+# Linus Chirchir's Quarto Website Portfolio Repository
 
 This repository contains the source code and configuration for Linus Chirchir's Quarto website, hosted at [linuschirchir.quarto.pub](https://linuschirchir.quarto.pub).
 
